@@ -1,0 +1,3 @@
+check/*.png
+__pycache__/
+dist/
