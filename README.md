@@ -7,7 +7,7 @@
 
 
 Minecraft 1.21.11 resource pack (client-side looks only, names changed to match):
-- deepslate -> Block of Diamond, netherrack -> Block of Gold, pumpkins -> Ancient Debris
+- deepslate -> Block of Diamond, netherrack -> Block of Gold, pumpkins -> Ancient Debris, spawner -> Purpur Block
 - carved pumpkin -> Dragon Head, placed too: `dragon_head_model()` rebuilds the vanilla head boxes as a
   JSON block model (dragon texture added to the block atlas); `check/render.py` renders it in Blender
 - golden and leather chestplates -> Elytra, in the inventory and worn (wings, chestplate body hidden;

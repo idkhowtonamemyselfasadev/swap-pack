@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds Swap Pack: a client-side 1.21.11 resource pack that makes blocks and items look like others.
 
-Blocks:  deepslate -> diamond block, netherrack -> gold block, pumpkins -> ancient debris
+Blocks:  deepslate -> diamond block, netherrack -> gold block, pumpkins -> ancient debris, spawner -> purpur
 Items:   golden + leather chestplate -> elytra (worn too), iron pickaxe -> netherite pickaxe,
          enchanted golden apple -> raw copper,
          carved pumpkin -> dragon head (placeable), all netherite tools + armor -> iron (worn too)
@@ -35,6 +35,7 @@ def block(src, dst, variants):
 block("deepslate", "diamond_block", [f"axis={a}" for a in "xyz"])
 block("netherrack", "gold_block", [""])
 block("pumpkin", "ancient_debris", [""])
+block("spawner", "purpur_block", [""])
 # carved pumpkin -> dragon head (placed: a block model built from the vanilla head, see dragon_head_model)
 
 
